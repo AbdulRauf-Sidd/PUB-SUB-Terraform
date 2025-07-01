@@ -1,3 +1,4 @@
 iaac_env/
 terra/.terraform/
 terra/.*
+terra/terraform.tfvars

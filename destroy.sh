@@ -1,2 +1,2 @@
 cd terra
-terraform destroy -var-file="terra/terraform.tfvars"
+terraform destroy -var-file="terraform.tfvars"

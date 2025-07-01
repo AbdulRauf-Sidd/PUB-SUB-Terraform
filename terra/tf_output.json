@@ -1,0 +1,17 @@
+{
+  "flask_app_external_ip": {
+    "sensitive": false,
+    "type": "string",
+    "value": "35.244.113.43"
+  },
+  "pubsub_subscription_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "projects/true-area-464010-j9/subscriptions/iaac-topic-sub"
+  },
+  "pubsub_topic_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "projects/true-area-464010-j9/topics/iaac-topic"
+  }
+}

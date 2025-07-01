@@ -49,3 +49,9 @@ variable "service_account_key_path" {
   type        = string
   default     = "true-area-464010-j9-670d93d05dcd.json"
 } 
+
+variable "weather_api_key" {
+  description = "API key for weather service"
+  sensitive   = true
+}
+
