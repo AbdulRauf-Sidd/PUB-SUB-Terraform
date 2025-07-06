@@ -27,9 +27,10 @@
     WEATHER_API_KEY="$${WEATHER_API_KEY}"
     GCP_PROJECT_ID="$${GCP_PROJECT_ID}"
     PUBSUB_TOPIC_ID="$${PUBSUB_TOPIC_ID}"
-    EOF
+EOF
+
     touch envfile.txt
-    
+
     # Clone and start app
     cd /opt/flask-app
     # sudo apt-get update
