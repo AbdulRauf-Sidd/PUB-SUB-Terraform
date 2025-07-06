@@ -29,6 +29,7 @@
     # Clone and start app
     cd /opt/flask-app
     sudo apt-get update
+    touch aptupdated.txt
     sudo apt-get install -y python3-pip
     touch pipinstalled.txt
     pip install -r requirements.txt
