@@ -24,9 +24,9 @@ export GOOGLE_APPLICATION_CREDENTIALS="/etc/gcp/key.json"
 
     # Write .env file
 cat <<EOF > /opt/flask-app/.env
-WEATHER_API_KEY="$${WEATHER_API_KEY}"
-GCP_PROJECT_ID="$${GCP_PROJECT_ID}"
-PUBSUB_TOPIC_ID="$${PUBSUB_TOPIC_ID}"
+WEATHER_API_KEY="${WEATHER_API_KEY}"
+GCP_PROJECT_ID="${GCP_PROJECT_ID}"
+PUBSUB_TOPIC_ID="${PUBSUB_TOPIC_ID}"
 EOF
 
 # touch envfile.txt
