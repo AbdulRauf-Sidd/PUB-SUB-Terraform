@@ -32,7 +32,7 @@ PUBSUB_TOPIC_ID = 'iaac-topic'
 # Store the latest weather data
 data_cache = {}
 
-# Publisher client (reuse for efficiency)
+# Publisher client (reuse for efficiency)iaac-topic
 publisher = pubsub_v1.PublisherClient()
 topic_path = publisher.topic_path(GCP_PROJECT_ID, PUBSUB_TOPIC_ID)
 
