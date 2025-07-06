@@ -2,7 +2,7 @@
   "flask_app_external_ip": {
     "sensitive": false,
     "type": "string",
-    "value": "34.40.164.185"
+    "value": "34.40.144.169"
   },
   "pubsub_subscription_id": {
     "sensitive": false,
